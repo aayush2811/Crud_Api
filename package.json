@@ -1,0 +1,19 @@
+{
+  "name": "nde_crud_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs": "^2.0.0",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0"
+  }
+}
