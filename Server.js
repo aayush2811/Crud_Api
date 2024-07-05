@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const Product = require('./models/productModel')
 
-mongoose.connect('mongodb+srv://abhatt2811:aayush2811@crud.7mec9cs.mongodb.net/Node-Api?retryWrites=true&w=majority&appName=Crud').then(() => {
+mongoose.connect('<Your MonoAtlas Database Id>').then(() => {
     console.log('Database Connected');
 }).catch(() => {
     console.log("Unable to connect Database");
